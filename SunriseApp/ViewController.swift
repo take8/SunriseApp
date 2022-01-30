@@ -48,7 +48,8 @@ class ViewController: UIViewController {
 
         // NSDate型を日時文字列に変換するためのNSDateFormatterを生成
         let formatter = DateFormatter()
-        formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
+        // formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
+        formatter.dateFormat = DateFormatter.dateFormat(fromTemplate: "Hms", options: 0, locale: Locale(identifier: "ja_JP"))
 
         // NSDateFormatterを使ってNSDate型 "date" を日時文字列 "dateStr" に変換
         let dateStr: String = formatter.string(from: date)
