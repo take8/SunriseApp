@@ -19,6 +19,21 @@ class ViewController: UIViewController {
 
 
     @IBAction func findSunrise(_ sender: Any) {
+        let apiKey = "d656ffaab4e7c04246e108ad5a586119"
+        let url = "https://api.openweathermap.org/data/2.5/weather?q=\(cityNameInput.text!)&appid=\(apiKey)"
+        getURL(url: url)
+    }
+    
+    func getURL(url: String) {
+        do {
+            let apiURL = URL(string: url)!
+            let data = try Data(contentsOf: apiURL)
+            let json = try JSONSerialization.jsonObject(with: data) as! [String: Any]
+            print(json)
+        } catch {
+            print("error occurred...")
+            self.sunriseTimeLabel.text = "サーバーに接続できません"
+        }
     }
 }
 
