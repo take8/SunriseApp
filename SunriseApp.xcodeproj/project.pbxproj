@@ -17,6 +17,7 @@
 		B8856EAA27A67591000611BA /* SunriseAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8856EA927A67591000611BA /* SunriseAppUITests.swift */; };
 		B8856EAC27A67591000611BA /* SunriseAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8856EAB27A67591000611BA /* SunriseAppUITestsLaunchTests.swift */; };
 		B8F5BE7E27A9A0650048D982 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B8F5BE7D27A9A0650048D982 /* README.md */; };
+		B8F5BE8227A9A2CB0048D982 /* .env.example in Resources */ = {isa = PBXBuildFile; fileRef = B8F5BE8127A9A2CB0048D982 /* .env.example */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B8856EA927A67591000611BA /* SunriseAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunriseAppUITests.swift; sourceTree = "<group>"; };
 		B8856EAB27A67591000611BA /* SunriseAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunriseAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B8F5BE7D27A9A0650048D982 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B8F5BE8127A9A2CB0048D982 /* .env.example */ = {isa = PBXFileReference; lastKnownFileType = text; path = .env.example; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				B8856E9127A67591000611BA /* Assets.xcassets */,
 				B8856E9327A67591000611BA /* LaunchScreen.storyboard */,
 				B8856E9627A67591000611BA /* Info.plist */,
+				B8F5BE8127A9A2CB0048D982 /* .env.example */,
 			);
 			path = SunriseApp;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8856E9527A67591000611BA /* LaunchScreen.storyboard in Resources */,
+				B8F5BE8227A9A2CB0048D982 /* .env.example in Resources */,
 				B8856E9227A67591000611BA /* Assets.xcassets in Resources */,
 				B8F5BE7E27A9A0650048D982 /* README.md in Resources */,
 				B8856E9027A6758E000611BA /* Main.storyboard in Resources */,
