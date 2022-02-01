@@ -16,6 +16,7 @@
 		B8856EA027A67591000611BA /* SunriseAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8856E9F27A67591000611BA /* SunriseAppTests.swift */; };
 		B8856EAA27A67591000611BA /* SunriseAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8856EA927A67591000611BA /* SunriseAppUITests.swift */; };
 		B8856EAC27A67591000611BA /* SunriseAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8856EAB27A67591000611BA /* SunriseAppUITestsLaunchTests.swift */; };
+		B8F5BE7E27A9A0650048D982 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B8F5BE7D27A9A0650048D982 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B8856EA527A67591000611BA /* SunriseAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunriseAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8856EA927A67591000611BA /* SunriseAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunriseAppUITests.swift; sourceTree = "<group>"; };
 		B8856EAB27A67591000611BA /* SunriseAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunriseAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B8F5BE7D27A9A0650048D982 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		B8856E7C27A6758E000611BA = {
 			isa = PBXGroup;
 			children = (
+				B8F5BE7D27A9A0650048D982 /* README.md */,
 				B8856E8727A6758E000611BA /* SunriseApp */,
 				B8856E9E27A67591000611BA /* SunriseAppTests */,
 				B8856EA827A67591000611BA /* SunriseAppUITests */,
@@ -233,6 +236,7 @@
 			files = (
 				B8856E9527A67591000611BA /* LaunchScreen.storyboard in Resources */,
 				B8856E9227A67591000611BA /* Assets.xcassets in Resources */,
+				B8F5BE7E27A9A0650048D982 /* README.md in Resources */,
 				B8856E9027A6758E000611BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
