@@ -19,7 +19,8 @@ class ViewController: UIViewController {
 
 
     @IBAction func findSunrise(_ sender: Any) {
-        let apiKey = "d656ffaab4e7c04246e108ad5a586119"
+        let env = ProcessInfo.processInfo.environment
+        let apiKey = env["WEATHER_API_KEY"]!
         let url = "https://api.openweathermap.org/data/2.5/weather?q=\(cityNameInput.text!)&appid=\(apiKey)"
         getURL(url: url)
     }
@@ -30,6 +31,7 @@ class ViewController: UIViewController {
             let data = try Data(contentsOf: apiURL)
             let json = try JSONSerialization.jsonObject(with: data) as! [String: Any]
             // print(json)
+            // TODO: エラーレスポンスの処理
             let sys = json["sys"] as! [String:Any]
             let sunrise = sys["sunrise"] as! TimeInterval
             // print(sunrise)
